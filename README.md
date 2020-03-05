@@ -1,4 +1,4 @@
-# Xiaoqing Ding Assignment 6 
+# Beverage-Vending-Machine
 
 This assignment is to simulator a fully automatic beverage vending machine, to implement a controller of this machine. 
  I am using state pattern to doing this implemention, so the basic state is ready to order state, after the class init it will change to this state, then if a customer choose he want tea or coffee, it will change to make tea/coffee state depends on customers choice.  then it will come back to ready to order state after make a drink. I refactore the add condiments part too, now people can choose what caniments they want and there is a limit of 3 caniments per coffee, I am using decorator pattern to make this refactor.After refactore, the project now is more logic and easier to understand. 
